@@ -66,7 +66,7 @@ def parse_info(data):
     # mytable[0] 第一个表格
     for line in mytable[0].select("tr"):
         for td in line.select("td"):
-            # print(td.get_text())
+            print(td.get_text())
             # print(td.string)
 
 
