@@ -1,7 +1,8 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
-import pymysql
 import re
+
+import pymysql
 
 
 class MysqlHelper:
@@ -51,6 +52,7 @@ class MysqlHelper:
         data = self.cur.fetchone()
         return data
 
+    # 检查数据库表是否存在
     def is_exist_table(self, tablename):
         """
         :param tablename: 表名
@@ -58,7 +60,6 @@ class MysqlHelper:
         """
         sql = "select * from %s" % tablename
         result = self.execute_commit(sql)
-        print(result)
         if not result:
             return True
         else:
@@ -67,6 +68,7 @@ class MysqlHelper:
             else:
                 return True
 
+    # 执行sql语句
     def execute_commit(self, sql=''):
         """
         :param sql: sql语句
@@ -80,6 +82,21 @@ class MysqlHelper:
             error = 'MySQL execute failed! ERROR (%s): %s' % (e.args[0], e.args[1])
             print("error:", error)
             return error
+
+    def execute_sql(self, sql=''):
+        """执行sql语句，针对读操作返回结果集
+
+            args：
+                sql  ：sql语句
+        """
+        try:
+            self.cur.execute(sql)
+            records = self.cur.fetchall()
+            return records
+        except pymysql.Error as e:
+            error = 'MySQL execute failed! ERROR (%s): %s' % (e.args[0], e.args[1])
+            print(error)
+            return None
 
     # 创建数据库表
     def create_table(self, tablename, attrdict, constraint):
@@ -104,15 +121,70 @@ class MysqlHelper:
         print('creatTable:' + sql)
         self.execute_commit(sql)
 
+    # 插入数据
+    def insert(self, tablename, params):
+        """
+        :param tablename: 数据库表名
+        :param params: {key(属性键): value(属性值)}
+        :return:
+        """
+        key = []
+        value = []
+        for tmpkey, tmpvalue in params.items():
+            key.append(tmpkey)
+            if isinstance(tmpvalue, str):
+                value.append("\'{}\'".format(tmpvalue))
+            else:
+                value.append(tmpvalue)
+        attrs_sql = "({})".format(','.join(key))
+        values_sql = "values({})".format(','.join(value))
+        sql = "insert into {}".format(tablename)
+        sql = sql + attrs_sql + values_sql
+        print('_insert:' + sql)
+        self.execute_commit(sql)
 
+    # 查询数据
+    def select(self, tablename, cond_dict='', order='', fields='*'):
+        """查询数据
+
+            args：
+                tablename  ：表名字
+                cond_dict  ：查询条件
+                order      ：排序条件
+
+            example：
+                print mydb.select(table)
+                print mydb.select(table, fields=["name"])
+                print mydb.select(table, fields=["name", "age"])
+                print mydb.select(table, fields=["age", "name"])
+        """
+        consql = ' '
+        if cond_dict != '':
+            for k, v in cond_dict.items():
+                consql = consql + '`' + k + '`' + '=' + '"' + v + '"' + ' and'
+        consql = consql + ' 1=1 '
+        if fields == "*":
+            sql = 'select * from %s where ' % tablename
+        else:
+            if isinstance(fields, list):
+                fields = ",".join(fields)
+                sql = 'select %s from %s where ' % (fields, tablename)
+            else:
+                print("fields input error, please input list fields.")
+        sql = sql + consql + order
+        print('select:' + sql)
+        return self.execute_sql(sql)
+
+
+'''
 if __name__ == '__main__':
     config = {
         'host': 'localhost',
         'port': 3306,
         'user': 'root',
         'passwd': 'root',
-        'database':'stockstar_spider',
-        'charset':"utf8"
+        'database': 'stockstar_spider',
+        'charset': "utf8"
     }
     # 初始化打开数据库连接
     mydb = MysqlHelper(config)
@@ -121,17 +193,19 @@ if __name__ == '__main__':
     print(mydb.get_version())
 
     # 创建表
-    # TABLE_NAME = 'equity_funds_table'
-    # print("========= 选择数据表%s ===========" % TABLE_NAME)
-    # # CREATE TABLE %s(id int(11) primary key,name varchar(30))' %TABLE_NAME
-    # attrdict = {'基金代码': 'int', "基金简称": 'varchar(50) NOT NULL', '单位净值': 'float', '累计净值': 'float', '日增长额': 'float', '日增长率': 'flost'}
-    # constraint = 'PRIMARY KEY(`id`)'
-    # mydb.create_table(TABLE_NAME, attrdict, constraint)
-
-    TABLE_NAME = 'test_user2'
+    TABLE_NAME = 'equity_funds_table'
     print("========= 选择数据表%s ===========" % TABLE_NAME)
-    # CREATE TABLE %s(id int(11) primary key,name varchar(30))' %TABLE_NAME
-    attrdict = {'name': 'varchar(30) NOT NULL'}
-    constraint = "PRIMARY KEY(`id`)"
-    mydb.create_table(TABLE_NAME,attrdict,constraint)
-
+    attrdict = {
+        'fund_code': 'varchar(30)',
+        "fund_abbreviation": 'varchar(50) NOT NULL',
+        "fund_abbreviation_link": 'varchar(300)',
+        'net_unit_value': 'varchar(30)',
+        'accumulated_net': 'varchar(30)',
+        'daily_growth': 'varchar(30)',
+        'daily_growth_rate': 'varchar(30)'
+    }
+    constraint = 'PRIMARY KEY(`id`)'
+    mydb.create_table(TABLE_NAME, attrdict, constraint)
+    # mydb.select(TABLE_NAME, cond_dict={"fund_code": "00001", "fund_abbreviation": "测试股票","fund_abbreviation_link":"www.baidu.com"}, order='', fields='*')
+    mydb.insert(TABLE_NAME, params={"fund_code": "00001", "fund_abbreviation": "测试股票", "fund_abbreviation_link":"www.baidu.com"})
+'''
