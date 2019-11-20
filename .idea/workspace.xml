@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07ff4305-9567-4ba9-bb8b-a3a09cf8e83c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/bat_spider/stockstar_spider_sql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/some_demos/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/some_demos/identify_code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bat_spider/deacribe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bat_spider/stockstar_spider.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/connect_mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/connect_mysql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Spider_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Spider_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/some_demos/request_auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/some_demos/json_and_request_auth.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,18 +18,32 @@
     <SUITE FILE_PATH="coverage/Spider_project$stockstar_spider.coverage" NAME="stockstar_spider Coverage Results" MODIFIED="1573515555974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bat_spider" />
     <SUITE FILE_PATH="coverage/Spider_project$request_auth.coverage" NAME="request_auth Coverage Results" MODIFIED="1573808873934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/some_demos" />
     <SUITE FILE_PATH="coverage/Spider_project$bs4_operate.coverage" NAME="bs4_operate Coverage Results" MODIFIED="1572879913026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bat_spider" />
+    <SUITE FILE_PATH="coverage/Spider_project$pyquery_code.coverage" NAME="pyquery_code Coverage Results" MODIFIED="1574225261499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/some_demos" />
     <SUITE FILE_PATH="coverage/Spider_project$tieba_index_req.coverage" NAME="tieba_index_req Coverage Results" MODIFIED="1571845171532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tieba_spider" />
+    <SUITE FILE_PATH="coverage/Spider_project$json_and_request_auth.coverage" NAME="json_and_request_auth Coverage Results" MODIFIED="1574226544351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/some_demos" />
     <SUITE FILE_PATH="coverage/Spider_project$seliumn_csdn_login.coverage" NAME="seliumn_csdn_login Coverage Results" MODIFIED="1572412242876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bat_spider" />
     <SUITE FILE_PATH="coverage/Spider_project$alibaba_job_spider.coverage" NAME="alibaba_job_spider Coverage Results" MODIFIED="1572515377667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bat_spider" />
     <SUITE FILE_PATH="coverage/Spider_project$identify_code.coverage" NAME="identify_code Coverage Results" MODIFIED="1573481891812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/some_demos" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="request_auth.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/some_demos/request_auth.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pyquery_code.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/some_demos/pyquery_code.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="331">
+              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+              <folding>
+                <element signature="e#47#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="identify_code.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/some_demos/identify_code.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -72,6 +84,9 @@
         <option value="$PROJECT_DIR$/bat_spider/stockstar_spider_sql.py" />
         <option value="$PROJECT_DIR$/some_demos/request_auth.py" />
         <option value="$PROJECT_DIR$/utils/connect_mysql.py" />
+        <option value="$PROJECT_DIR$/spider.gitignore" />
+        <option value="$PROJECT_DIR$/some_demos/pyquery_code.py" />
+        <option value="$PROJECT_DIR$/some_demos/json_and_request_auth.py" />
       </list>
     </option>
   </component>
@@ -84,11 +99,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="-16" />
-    <option name="width" value="1378" />
-    <option name="height" value="780" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="248" />
+    <option name="y" value="9" />
+    <option name="width" value="1036" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -105,17 +120,7 @@
             <path>
               <item name="Spider_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spider_project" type="462c0819:PsiDirectoryNode" />
-              <item name="bat_spider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spider_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spider_project" type="462c0819:PsiDirectoryNode" />
               <item name="some_demos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spider_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spider_project" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -126,7 +131,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/data_process" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="options.lastSelected" value="configurable.group.appearance" />
@@ -146,45 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.request_auth">
-    <configuration name="alibaba_job_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Spider_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bat_spider" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bat_spider/alibaba_job_spider.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="bs4_operate" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Spider_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bat_spider" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="I:\Spider_project\bat_spider\stockstar_spider.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.json_and_request_auth">
     <configuration name="identify_code" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Spider_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,6 +171,44 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="json_and_request_auth" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Spider_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/some_demos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/some_demos/json_and_request_auth.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="pyquery_code" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Spider_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/some_demos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/some_demos/pyquery_code.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="request_auth" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Spider_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -217,7 +222,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/some_demos/request_auth.py" />
+      <option name="SCRIPT_NAME" value="G:\Spider_project\some_demos\json_and_request_auth.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,19 +248,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.alibaba_job_spider" />
-      <item itemvalue="Python.bs4_operate" />
       <item itemvalue="Python.stockstar_spider" />
       <item itemvalue="Python.identify_code" />
       <item itemvalue="Python.request_auth" />
+      <item itemvalue="Python.pyquery_code" />
+      <item itemvalue="Python.json_and_request_auth" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.json_and_request_auth" />
+        <item itemvalue="Python.pyquery_code" />
         <item itemvalue="Python.request_auth" />
         <item itemvalue="Python.stockstar_spider" />
         <item itemvalue="Python.identify_code" />
-        <item itemvalue="Python.bs4_operate" />
-        <item itemvalue="Python.alibaba_job_spider" />
       </list>
     </recent_temporary>
   </component>
@@ -272,18 +277,26 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <frame x="189" y="4" width="1036" height="733" extended-state="0" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.13754046" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" weight="0.45676997" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3292978" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.2155361" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3132137" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25037822" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32913387" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.34856176" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32283464" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17147192" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -306,16 +319,34 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/some_demos/request_auth.py">
+    <entry file="file://$PROJECT_DIR$/some_demos/pyquery_code.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        <state relative-caret-position="741">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
           <folding>
-            <element signature="e#365#380#0" expanded="true" />
+            <element signature="e#47#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/some_demos/identify_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/some_demos/pyquery_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#47#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/some_demos/json_and_request_auth.py" />
     <entry file="file://$PROJECT_DIR$/bat_spider/stockstar_spider_sql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2109">
@@ -446,16 +477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2024">
           <caret line="133" column="25" selection-start-line="133" selection-start-column="25" selection-end-line="133" selection-end-column="25" />
-          <folding>
-            <element signature="e#372#383#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/some_demos/identify_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -466,15 +487,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/some_demos/request_auth.py">
+    <entry file="file://$PROJECT_DIR$/spider.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="114">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/python/Lib/site-packages/pyquery/pyquery.py" />
+    <entry file="file://$PROJECT_DIR$/some_demos/pyquery_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
           <folding>
-            <element signature="e#365#380#0" expanded="true" />
+            <element signature="e#47#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/some_demos/identify_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/python/Lib/site-packages/requests/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/some_demos/json_and_request_auth.py" />
   </component>
 </project>
