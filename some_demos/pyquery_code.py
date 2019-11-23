@@ -10,7 +10,6 @@ from lxml import etree
     2.bs4
     3.re
     4.pyquery
-
 """
 
 
@@ -44,4 +43,3 @@ def pyquery_request_demo():
     """pyquery请求：POST/GET"""
     pyquery.PyQuery(url="http://www.baidu.com", headers={"user-agent": "pyquery"})
     pyquery.PyQuery(url="https://www.baidu.com/s?", data={"wd": "python"}, method="post", verify=False)
-

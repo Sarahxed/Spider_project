@@ -15,10 +15,10 @@
 #
 # ------------------------------------------------------------------------------
 import re
+
 import requests
 from fake_useragent import UserAgent
 from requests import RequestException
-from lxml import etree
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
@@ -93,7 +93,4 @@ def get_email_from_page(url):
 
 
 if __name__ == '__main__':
-    # get_tieba_list(search_name="python")
-    # url_list = get_urls_from_page(search_name="python")
-    # print(url_list)
     get_email_from_page("http://tieba.baidu.com/p/6305824032")

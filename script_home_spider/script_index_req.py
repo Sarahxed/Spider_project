@@ -1,11 +1,11 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
 import re
+
 import requests
 from fake_useragent import UserAgent
-from requests import RequestException
 from lxml import etree
-
+from requests import RequestException
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 # 禁用安全请求警告

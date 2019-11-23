@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # !/usr/bin/env python
-#------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 # Name:  tieba_login_req
 # Purpose: 
 # 
@@ -14,11 +14,11 @@
 # Contributors:
 #
 # ------------------------------------------------------------------------------
-import json
 import requests
 from fake_useragent import UserAgent
 from requests import RequestException
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
+
 # 禁用安全请求警告
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
@@ -42,8 +42,6 @@ def get_baidu_token():
     print(resp)
 
 
-
-
 # 贴吧登入接口
 def login_tieba_req(user, pwd, token, gid):
     url_baidu_login = "https://passport.baidu.com/v2/api/?login"
@@ -58,6 +56,3 @@ def login_tieba_req(user, pwd, token, gid):
         "charset": "UTF-8",
         "callback": "parent.bd__pcbs__zgoxy6"
     }
-
-if __name__ == '__main__':
-    get_baidu_token()

@@ -8,6 +8,7 @@ import pymysql
 class MysqlHelper:
     def __init__(self, config):
         """
+        配置数据库
         :param config: 配置
         构造方法：
             config = {
@@ -36,25 +37,25 @@ class MysqlHelper:
 
     # 关闭数据库
     def close(self):
+        """关闭数据库"""
         if not self.con:
             self.con.close()
         else:
             print("数据库未连接")
 
-    # 获取数据库版本号
     def get_version(self):
+        """获取数据库版本号"""
         self.cur.execute("SELECT VERSION()")
         return self.get_one_data()
 
-    # 获取上个查询的结果
     def get_one_data(self):
-        # 取得上个查询的结果，是单个结果
+        """获取上个查询的结果"""
         data = self.cur.fetchone()
         return data
 
-    # 检查数据库表是否存在
     def is_exist_table(self, tablename):
         """
+        检查数据库表是否存在
         :param tablename: 表名
         :return: 表存在 True  表不存在 False
         """
@@ -68,9 +69,9 @@ class MysqlHelper:
             else:
                 return True
 
-    # 执行sql语句
     def execute_commit(self, sql=''):
         """
+        执行sql语句
         :param sql: sql语句
         :return: 针对更新,删除,事务等操作失败时回滚
         """
@@ -85,7 +86,6 @@ class MysqlHelper:
 
     def execute_sql(self, sql=''):
         """执行sql语句，针对读操作返回结果集
-
             args：
                 sql  ：sql语句
         """
@@ -98,7 +98,6 @@ class MysqlHelper:
             print(error)
             return None
 
-    # 创建数据库表
     def create_table(self, tablename, attrdict, constraint):
         """创建数据库表
 
@@ -121,9 +120,9 @@ class MysqlHelper:
         print('creatTable:' + sql)
         self.execute_commit(sql)
 
-    # 插入数据
     def insert(self, tablename, params):
         """
+        插入数据
         :param tablename: 数据库表名
         :param params: {key(属性键): value(属性值)}
         :return:
@@ -143,7 +142,6 @@ class MysqlHelper:
         print('_insert:' + sql)
         self.execute_commit(sql)
 
-    # 查询数据
     def select(self, tablename, cond_dict='', order='', fields='*'):
         """查询数据
 

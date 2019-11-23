@@ -15,6 +15,8 @@
 #
 # ------------------------------------------------------------------------------
 import json
+
+import jsonpath
 import requests
 import requests.auth
 
@@ -23,7 +25,7 @@ def request_auth_demo():
     """登陆路由器"""
     auth = requests.auth.HTTPBasicAuth("ryan", "password")
     req = requests.post(url="http://pythonscraping.com/pages/auth/login.php", auth=auth)
-    content = req.text
+    print(req.text)
 
 
 def jsonpath_demo():
@@ -33,7 +35,9 @@ def jsonpath_demo():
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"}
     json_data = requests.get(url, verify=False, headers=headers).text
     json_tree = json.loads(json_data).get("content")
-    print(json_tree)
+    # 根节点下所有的name节点
+    city_list = jsonpath.jsonpath(json_tree, "$..id")
+    print(city_list)
 
 
 if __name__ == '__main__':

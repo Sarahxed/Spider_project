@@ -15,12 +15,12 @@
 #
 # ------------------------------------------------------------------------------
 import time
+
 import requests
 from fake_useragent import UserAgent
 from requests import RequestException
-from selenium import webdriver
-
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
+from selenium import webdriver
 
 # 禁用安全请求警告
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
