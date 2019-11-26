@@ -31,7 +31,8 @@ def coroutine_demo(name, n):
 async def get(url):
     """aiohttp发送请求,requests并不支持异步,而aiohttp是支持异步的网络请求的库"""
     session = aiohttp.ClientSession()
-    response = await session.get(url)
+    # response = await session.get(url)
+    response = await session.get(url, proxy='http://10.75.22.88:8888')
     result = await response.text()
     session.close()
     return result
@@ -52,5 +53,13 @@ def async_tasks(url_list):
     loop = asyncio.get_event_loop()  # 建立 loop
     loop.run_until_complete(asyncio.wait(tasks))  # 执行 loop，并且等待所有任务结束
     loop.close()  # 关闭 loop
+    for task in tasks:
+        print(task.result())
 
+
+if __name__ == '__main__':
+    async_tasks(url_list=[
+        # "http://www.hshfy.sh.cn/shfy/gweb2017/ktgg_search.jsp/",
+        "http://www.baidu.com/"
+    ])
 
