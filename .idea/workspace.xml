@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07ff4305-9567-4ba9-bb8b-a3a09cf8e83c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/some_demos/coroutine_process_thread.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bat_spider/alibaba_job_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/bat_spider/alibaba_job_spider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bat_spider/seliumn_csdn_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/bat_spider/seliumn_csdn_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script_home_spider/script_index_req.py" beforeDir="false" afterPath="$PROJECT_DIR$/script_home_spider/script_index_req.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/some_demos/json_and_request_auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/some_demos/json_and_request_auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/some_demos/pyquery_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/some_demos/pyquery_code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tieba_spider/tieba_index_req.py" beforeDir="false" afterPath="$PROJECT_DIR$/tieba_spider/tieba_index_req.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tieba_spider/tieba_login_req.py" beforeDir="false" afterPath="$PROJECT_DIR$/tieba_spider/tieba_login_req.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sh_higher_people_court_spider/people_court_async.py" beforeDir="false" afterPath="$PROJECT_DIR$/sh_higher_people_court_spider/people_court_async.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,14 +24,27 @@
     <SUITE FILE_PATH="coverage/Spider_project$seliumn_csdn_login.coverage" NAME="seliumn_csdn_login Coverage Results" MODIFIED="1572412242876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bat_spider" />
     <SUITE FILE_PATH="coverage/Spider_project$alibaba_job_spider.coverage" NAME="alibaba_job_spider Coverage Results" MODIFIED="1572515377667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bat_spider" />
     <SUITE FILE_PATH="coverage/Spider_project$identify_code.coverage" NAME="identify_code Coverage Results" MODIFIED="1573481891812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/some_demos" />
+    <SUITE FILE_PATH="coverage/Spider_project$people_court_async.coverage" NAME="people_court_async Coverage Results" MODIFIED="1574755009605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sh_higher_people_court_spider" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="coroutine_process_thread.py" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="people_court_async.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sh_higher_people_court_spider/people_court_async.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="20" />
+              <folding>
+                <element signature="e#48#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coroutine_process_thread.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/some_demos/coroutine_process_thread.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="371">
+              <caret line="61" column="47" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
               <folding>
                 <element signature="e#377#391#0" expanded="true" />
               </folding>
@@ -74,9 +80,7 @@
         <option value="$PROJECT_DIR$/bat_spider/bs4_operate.py" />
         <option value="$PROJECT_DIR$/bat_spider/stockstar_spider.py" />
         <option value="$PROJECT_DIR$/some_demos/request_auth.py" />
-        <option value="$PROJECT_DIR$/utils/connect_mysql.py" />
         <option value="$PROJECT_DIR$/spider.gitignore" />
-        <option value="$PROJECT_DIR$/script_home_spider/script_index_req.py" />
         <option value="$PROJECT_DIR$/bat_spider/alibaba_job_spider.py" />
         <option value="$PROJECT_DIR$/bat_spider/seliumn_csdn_login.py" />
         <option value="$PROJECT_DIR$/bat_spider/stockstar_spider_sql.py" />
@@ -86,6 +90,9 @@
         <option value="$PROJECT_DIR$/some_demos/json_and_request_auth.py" />
         <option value="$PROJECT_DIR$/some_demos/pyquery_code.py" />
         <option value="$PROJECT_DIR$/some_demos/identify_code.py" />
+        <option value="$PROJECT_DIR$/utils/connect_mysql.py" />
+        <option value="$PROJECT_DIR$/script_home_spider/script_index_req.py" />
+        <option value="$PROJECT_DIR$/sh_higher_people_court_spider/people_court_async.py" />
       </list>
     </option>
   </component>
@@ -99,8 +106,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="126" />
-    <option name="y" value="41" />
+    <option name="x" value="122" />
+    <option name="y" value="3" />
     <option name="width" value="1116" />
     <option name="height" value="788" />
   </component>
@@ -120,7 +127,17 @@
             <path>
               <item name="Spider_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spider_project" type="462c0819:PsiDirectoryNode" />
+              <item name="sh_higher_people_court_spider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spider_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spider_project" type="462c0819:PsiDirectoryNode" />
               <item name="some_demos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spider_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spider_project" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -150,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tieba_login_req">
+  <component name="RunManager" selected="Python.people_court_async">
     <configuration name="coroutine_process_thread" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Spider_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,6 +206,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="people_court_async" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Spider_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sh_higher_people_court_spider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sh_higher_people_court_spider/people_court_async.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="pyquery_code" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Spider_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -203,25 +239,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/some_demos/pyquery_code.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="request_auth" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Spider_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/some_demos" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="G:\Spider_project\some_demos\json_and_request_auth.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,19 +264,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.request_auth" />
       <item itemvalue="Python.pyquery_code" />
       <item itemvalue="Python.json_and_request_auth" />
       <item itemvalue="Python.coroutine_process_thread" />
       <item itemvalue="Python.tieba_login_req" />
+      <item itemvalue="Python.people_court_async" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.people_court_async" />
         <item itemvalue="Python.tieba_login_req" />
         <item itemvalue="Python.coroutine_process_thread" />
         <item itemvalue="Python.json_and_request_auth" />
         <item itemvalue="Python.pyquery_code" />
-        <item itemvalue="Python.request_auth" />
       </list>
     </recent_temporary>
   </component>
@@ -294,9 +311,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32913387" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.2365416" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.2045952" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.22838499" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18229954" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19818456" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -318,9 +335,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://F:/python/Lib/site-packages/gevent/__init__.py" />
-    <entry file="file://F:/python/Lib/site-packages/gevent/greenlet.py" />
     <entry file="file://$PROJECT_DIR$/some_demos/pyquery_code.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
@@ -430,53 +450,24 @@
     <entry file="file://$PROJECT_DIR$/some_demos/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/connect_mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="140" column="26" selection-start-line="140" selection-start-column="22" selection-end-line="140" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/python/Lib/site-packages/pyquery/pyquery.py" />
     <entry file="file://F:/python/Lib/site-packages/requests/__init__.py" />
     <entry file="file://F:/python/Lib/site-packages/gevent/__init__.py" />
     <entry file="file://F:/python/Lib/site-packages/gevent/greenlet.py" />
-    <entry file="file://$PROJECT_DIR$/script_home_spider/script_index_req.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding>
-            <element signature="e#47#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bat_spider/alibaba_job_spider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-38">
           <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding>
-            <element signature="e#370#381#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bat_spider/seliumn_csdn_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#370#381#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tieba_spider/tieba_login_req.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="e#368#383#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -484,9 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1786">
           <caret line="94" column="26" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
-          <folding>
-            <element signature="e#368#377#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -515,9 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-          <folding>
-            <element signature="e#365#376#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -528,12 +513,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/utils/connect_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1748">
+          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script_home_spider/script_index_req.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/python/Lib/site-packages/selenium/webdriver/phantomjs/webdriver.py" />
+    <entry file="file://F:/python/Lib/site-packages/selenium/webdriver/chrome/webdriver.py" />
+    <entry file="file://$PROJECT_DIR$/sh_higher_people_court_spider/ghostdriver.log" />
     <entry file="file://$PROJECT_DIR$/some_demos/coroutine_process_thread.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="371">
+          <caret line="61" column="47" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
           <folding>
             <element signature="e#377#391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sh_higher_people_court_spider/people_court_async.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#48#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
