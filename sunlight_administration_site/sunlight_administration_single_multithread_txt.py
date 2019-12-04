@@ -19,10 +19,9 @@
 import queue
 import random
 import re
+import requests
 import threading
 import time
-
-import requests
 from fake_useragent import UserAgent
 from lxml import etree
 
@@ -92,6 +91,7 @@ def push_data(page_list, queue):
     signal = "end"
     queue.put(signal)
 
+
 def write2txt(queue, savepath, thread_num):
     """从队列中获取数据存储到txt中"""
     with open(savepath, "a", encoding="utf8", errors="ignore") as f:
@@ -99,9 +99,9 @@ def write2txt(queue, savepath, thread_num):
             try:
                 data = queue.get(timeout=15)
                 if data == "end":
-                	count += 1
-                	if count == thread_num:
-                		break
+                    count += 1
+                    if count == thread_num:
+                        break
                 f.write(data)
                 f.flush()
             except:
@@ -137,5 +137,12 @@ def execute():
         thd.join()
 
 
+def mian():
+    import fire
+    fire.Fire()
+
+
 if __name__ == '__main__':
-    execute()
+    import sys
+
+    sys.exist(main())

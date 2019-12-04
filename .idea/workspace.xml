@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07ff4305-9567-4ba9-bb8b-a3a09cf8e83c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/sunlight_administration_site/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sunlight_administration_site/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sunlight_administration_site/data_storage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_sql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_txt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/database_link_database_pool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Spider_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Spider_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_txt.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_txt.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,29 +13,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Spider_project$json_and_request_auth.coverage" NAME="json_and_request_auth Coverage Results" MODIFIED="1574226544351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/some_demos" />
     <SUITE FILE_PATH="coverage/Spider_project$stockstar_spider.coverage" NAME="stockstar_spider Coverage Results" MODIFIED="1573515555974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bat_spider" />
-    <SUITE FILE_PATH="coverage/Spider_project$bs4_operate.coverage" NAME="bs4_operate Coverage Results" MODIFIED="1572879913026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bat_spider" />
     <SUITE FILE_PATH="coverage/Spider_project$sunlight_administration_single_thread.coverage" NAME="sunlight_administration_single_thread Coverage Results" MODIFIED="1575018969636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sunlight_administration_site" />
-    <SUITE FILE_PATH="coverage/Spider_project$seliumn_csdn_login.coverage" NAME="seliumn_csdn_login Coverage Results" MODIFIED="1572412242876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bat_spider" />
-    <SUITE FILE_PATH="coverage/Spider_project$people_court_async.coverage" NAME="people_court_async Coverage Results" MODIFIED="1574755009605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sh_higher_people_court_spider" />
-    <SUITE FILE_PATH="coverage/Spider_project$sunlight_administration_single_multithread_txt.coverage" NAME="sunlight_administration_single_multithread_txt Coverage Results" MODIFIED="1575366125684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sunlight_administration_site" />
-    <SUITE FILE_PATH="coverage/Spider_project$coroutine_process_thread.coverage" NAME="coroutine_process_thread Coverage Results" MODIFIED="1574410966261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/some_demos" />
+    <SUITE FILE_PATH="coverage/Spider_project$bs4_operate.coverage" NAME="bs4_operate Coverage Results" MODIFIED="1572879913026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bat_spider" />
     <SUITE FILE_PATH="coverage/Spider_project$pyquery_code.coverage" NAME="pyquery_code Coverage Results" MODIFIED="1574225261499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/some_demos" />
-    <SUITE FILE_PATH="coverage/Spider_project$alibaba_job_spider.coverage" NAME="alibaba_job_spider Coverage Results" MODIFIED="1572515377667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bat_spider" />
-    <SUITE FILE_PATH="coverage/Spider_project$tieba_index_req.coverage" NAME="tieba_index_req Coverage Results" MODIFIED="1571845171532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tieba_spider" />
+    <SUITE FILE_PATH="coverage/Spider_project$json_and_request_auth.coverage" NAME="json_and_request_auth Coverage Results" MODIFIED="1574226544351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/some_demos" />
     <SUITE FILE_PATH="coverage/Spider_project$tieba_login_req.coverage" NAME="tieba_login_req Coverage Results" MODIFIED="1574517754616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tieba_spider" />
-    <SUITE FILE_PATH="coverage/Spider_project$identify_code.coverage" NAME="identify_code Coverage Results" MODIFIED="1573481891812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/some_demos" />
+    <SUITE FILE_PATH="coverage/Spider_project$seliumn_csdn_login.coverage" NAME="seliumn_csdn_login Coverage Results" MODIFIED="1572412242876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bat_spider" />
     <SUITE FILE_PATH="coverage/Spider_project$request_auth.coverage" NAME="request_auth Coverage Results" MODIFIED="1573808873934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/some_demos" />
+    <SUITE FILE_PATH="coverage/Spider_project$coroutine_process_thread.coverage" NAME="coroutine_process_thread Coverage Results" MODIFIED="1574410966261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/some_demos" />
+    <SUITE FILE_PATH="coverage/Spider_project$tieba_index_req.coverage" NAME="tieba_index_req Coverage Results" MODIFIED="1571845171532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tieba_spider" />
+    <SUITE FILE_PATH="coverage/Spider_project$alibaba_job_spider.coverage" NAME="alibaba_job_spider Coverage Results" MODIFIED="1572515377667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bat_spider" />
+    <SUITE FILE_PATH="coverage/Spider_project$identify_code.coverage" NAME="identify_code Coverage Results" MODIFIED="1573481891812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/some_demos" />
+    <SUITE FILE_PATH="coverage/Spider_project$people_court_async.coverage" NAME="people_court_async Coverage Results" MODIFIED="1574755009605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sh_higher_people_court_spider" />
     <SUITE FILE_PATH="coverage/Spider_project$data_storage.coverage" NAME="data_storage Coverage Results" MODIFIED="1575018262144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sunlight_administration_site" />
+    <SUITE FILE_PATH="coverage/Spider_project$sunlight_administration_single_multithread_txt.coverage" NAME="sunlight_administration_single_multithread_txt Coverage Results" MODIFIED="1575366125684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sunlight_administration_site" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="sunlight_administration_single_multithread_txt.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_txt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2261">
-              <caret line="119" column="16" lean-forward="true" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
+            <state relative-caret-position="31">
+              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
               <folding>
                 <element signature="e#425#437#0" expanded="true" />
               </folding>
@@ -151,7 +144,7 @@
     <property name="options.lastSelected" value="configurable.group.appearance" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -306,7 +299,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.13754046" />
@@ -316,7 +309,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32913387" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.07986871" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.16958424" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20469083" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20801815" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -463,13 +456,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/python/Lib/re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="131" selection-start-line="131" selection-end-line="131" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://F:/python/Lib/re.py" />
     <entry file="file://$PROJECT_DIR$/bat_spider/stockstar_spider_sql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
@@ -485,13 +472,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/database_operate.py" />
-    <entry file="file://$PROJECT_DIR$/utils/database_link_database_pool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/database_link_database_pool.py" />
     <entry file="file://$PROJECT_DIR$/utils/connect_mysql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -499,13 +480,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/python/Lib/site-packages/sqlalchemy/sql/schema.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4103">
-          <caret line="920" column="8" selection-start-line="920" selection-start-column="8" selection-end-line="920" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://F:/python/Lib/site-packages/sqlalchemy/sql/schema.py" />
     <entry file="file://$PROJECT_DIR$/sunlight_administration_site/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -524,40 +499,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="710">
           <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
-          <folding>
-            <element signature="e#235#281#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/python/Lib/threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="757" column="32" selection-start-line="757" selection-start-column="26" selection-end-line="757" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1104749448/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="339" column="49" selection-start-line="339" selection-start-column="41" selection-end-line="339" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://F:/python/Lib/threading.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1104749448/builtins.py" />
     <entry file="file://$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_sql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="e#412#425#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_txt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2261">
-          <caret line="119" column="16" lean-forward="true" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
+        <state relative-caret-position="31">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
           <folding>
             <element signature="e#425#437#0" expanded="true" />
           </folding>
