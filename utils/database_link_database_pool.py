@@ -19,7 +19,6 @@ import pymysql
 from DBUtils.PooledDB import PooledDB
 
 
-
 class DatabaseConnection(object):
     host = ''
     user = ''
