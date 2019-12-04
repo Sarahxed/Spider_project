@@ -2,7 +2,7 @@
 #
 # !/usr/bin/env python
 # ------------------------------------------------------------------------------
-# Name:  sunlight_administration_single_thread
+# Name:  sunlight_administration_single_multithread_sql
 # Purpose: 
 # 
 # @Author: v_mzhulliu
@@ -15,7 +15,7 @@
 #
 # ------------------------------------------------------------------------------
 
-"""阳光问政之问题反馈模块单线程"""
+"""阳光问政之问题反馈模块多线程mysql存储"""
 import random
 import re
 import threading
