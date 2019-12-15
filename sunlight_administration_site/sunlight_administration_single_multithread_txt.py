@@ -95,6 +95,7 @@ def push_data(page_list, queue):
 def write2txt(queue, savepath, thread_num):
     """从队列中获取数据存储到txt中"""
     with open(savepath, "a", encoding="utf8", errors="ignore") as f:
+        count = 0
         while not queue.empty():
             try:
                 data = queue.get(timeout=15)
@@ -125,6 +126,7 @@ def execute():
     for i in range(len(page_list)):
         xlist[i % thread_num].append(page_list[i])
 
+    for url_list in xlist:
         th = threading.Thread(target=push_data, args=(url_list, q))
         th.start()
         th_pool.append(th)
@@ -137,7 +139,7 @@ def execute():
         thd.join()
 
 
-def mian():
+def main():
     import fire
     fire.Fire()
 
@@ -145,4 +147,4 @@ def mian():
 if __name__ == '__main__':
     import sys
 
-    sys.exist(main())
+    sys.exit(main())
