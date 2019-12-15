@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07ff4305-9567-4ba9-bb8b-a3a09cf8e83c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/some_demos/baidu_recognition.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/some_demos/distributed_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/some_demos/distributed_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/some_demos/distributed_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/some_demos/distributed_server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_txt.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_txt.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,27 +21,44 @@
     <SUITE FILE_PATH="coverage/Spider_project$bs4_operate.coverage" NAME="bs4_operate Coverage Results" MODIFIED="1572879913026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bat_spider" />
     <SUITE FILE_PATH="coverage/Spider_project$pyquery_code.coverage" NAME="pyquery_code Coverage Results" MODIFIED="1574225261499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/some_demos" />
     <SUITE FILE_PATH="coverage/Spider_project$json_and_request_auth.coverage" NAME="json_and_request_auth Coverage Results" MODIFIED="1574226544351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/some_demos" />
+    <SUITE FILE_PATH="coverage/Spider_project$distributed_client.coverage" NAME="distributed_client Coverage Results" MODIFIED="1575538039693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/some_demos" />
     <SUITE FILE_PATH="coverage/Spider_project$tieba_login_req.coverage" NAME="tieba_login_req Coverage Results" MODIFIED="1574517754616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tieba_spider" />
     <SUITE FILE_PATH="coverage/Spider_project$seliumn_csdn_login.coverage" NAME="seliumn_csdn_login Coverage Results" MODIFIED="1572412242876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bat_spider" />
     <SUITE FILE_PATH="coverage/Spider_project$request_auth.coverage" NAME="request_auth Coverage Results" MODIFIED="1573808873934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/some_demos" />
+    <SUITE FILE_PATH="coverage/Spider_project$verification_code__1_.coverage" NAME="verification_code (1) Coverage Results" MODIFIED="1576138230106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/Spider_project$coroutine_process_thread.coverage" NAME="coroutine_process_thread Coverage Results" MODIFIED="1574410966261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/some_demos" />
+    <SUITE FILE_PATH="coverage/Spider_project$verification_code.coverage" NAME="verification_code Coverage Results" MODIFIED="1575966893479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/some_demos" />
     <SUITE FILE_PATH="coverage/Spider_project$tieba_index_req.coverage" NAME="tieba_index_req Coverage Results" MODIFIED="1571845171532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tieba_spider" />
     <SUITE FILE_PATH="coverage/Spider_project$alibaba_job_spider.coverage" NAME="alibaba_job_spider Coverage Results" MODIFIED="1572515377667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bat_spider" />
     <SUITE FILE_PATH="coverage/Spider_project$identify_code.coverage" NAME="identify_code Coverage Results" MODIFIED="1573481891812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/some_demos" />
+    <SUITE FILE_PATH="coverage/Spider_project$baidu_recognition.coverage" NAME="baidu_recognition Coverage Results" MODIFIED="1575866366513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/some_demos" />
     <SUITE FILE_PATH="coverage/Spider_project$people_court_async.coverage" NAME="people_court_async Coverage Results" MODIFIED="1574755009605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sh_higher_people_court_spider" />
+    <SUITE FILE_PATH="coverage/Spider_project$distributed_server.coverage" NAME="distributed_server Coverage Results" MODIFIED="1575538008246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/some_demos" />
     <SUITE FILE_PATH="coverage/Spider_project$data_storage.coverage" NAME="data_storage Coverage Results" MODIFIED="1575018262144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sunlight_administration_site" />
     <SUITE FILE_PATH="coverage/Spider_project$sunlight_administration_single_multithread_txt.coverage" NAME="sunlight_administration_single_multithread_txt Coverage Results" MODIFIED="1575366125684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sunlight_administration_site" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Spider_project" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sunlight_administration_single_multithread_txt.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_txt.py">
+      <file leaf-file-name="verification_code.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/utils/verification_code.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+            <state relative-caret-position="137">
+              <caret line="75" column="41" lean-forward="true" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
               <folding>
-                <element signature="e#425#437#0" expanded="true" />
+                <element signature="e#369#378#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageFilter.py" pinned="false" current-in-tab="false">
+        <entry file="file://F:/python/Lib/site-packages/PIL/ImageFilter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="240" column="18" selection-start-line="240" selection-start-column="6" selection-end-line="240" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -61,6 +81,11 @@
       <find>card_menNum</find>
       <find>next</find>
       <find>buffering</find>
+      <find>text</find>
+      <find>draw_line</find>
+      <find>filter</find>
+      <find>getsize</find>
+      <find>BLUR</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -94,6 +119,12 @@
         <option value="$PROJECT_DIR$/sunlight_administration_site/config.py" />
         <option value="$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_sql.py" />
         <option value="$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_txt.py" />
+        <option value="$PROJECT_DIR$/some_demos/distributed_server.py" />
+        <option value="F:/python/Lib/multiprocessing/managers.py" />
+        <option value="$PROJECT_DIR$/some_demos/distributed_client.py" />
+        <option value="$PROJECT_DIR$/some_demos/baidu_recognition.py" />
+        <option value="$PROJECT_DIR$/some_demos/verification_code.py" />
+        <option value="$PROJECT_DIR$/utils/verification_code.py" />
       </list>
     </option>
   </component>
@@ -106,11 +137,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="573" />
-    <option name="y" value="220" />
-    <option name="width" value="1116" />
-    <option name="height" value="788" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -128,7 +159,7 @@
             <path>
               <item name="Spider_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spider_project" type="462c0819:PsiDirectoryNode" />
-              <item name="sunlight_administration_site" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -148,6 +179,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Spider_project\utils" />
       <recent name="G:\Spider_project\sunlight_administration_site" />
     </key>
   </component>
@@ -163,8 +195,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sunlight_administration_single_multithread_txt">
-    <configuration name="data_storage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.verification_code (1)">
+    <configuration name="baidu_recognition" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Spider_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,18 +204,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sunlight_administration_site" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/some_demos" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sunlight_administration_site/data_storage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/some_demos/baidu_recognition.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="people_court_async" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="distributed_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Spider_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -191,18 +223,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sh_higher_people_court_spider" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/some_demos" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sh_higher_people_court_spider/people_court_async.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/some_demos/distributed_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="sunlight_administration_single_multithread_txt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="distributed_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Spider_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -210,18 +242,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sunlight_administration_site" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/some_demos" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_txt.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/some_demos/distributed_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="sunlight_administration_single_thread" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="verification_code (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Spider_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -229,18 +261,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sunlight_administration_site" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="G:\Spider_project\sunlight_administration_site\sunlight_administration_single_multithread_sql.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/verification_code.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="tieba_login_req" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="verification_code" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Spider_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -248,31 +280,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tieba_spider" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/some_demos" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tieba_spider/tieba_login_req.py" />
+      <option name="SCRIPT_NAME" value="G:\Spider_project\utils\verification_code.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.tieba_login_req" />
-      <item itemvalue="Python.people_court_async" />
-      <item itemvalue="Python.sunlight_administration_single_thread" />
-      <item itemvalue="Python.data_storage" />
-      <item itemvalue="Python.sunlight_administration_single_multithread_txt" />
+      <item itemvalue="Python.distributed_server" />
+      <item itemvalue="Python.distributed_client" />
+      <item itemvalue="Python.baidu_recognition" />
+      <item itemvalue="Python.verification_code" />
+      <item itemvalue="Python.verification_code (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sunlight_administration_single_multithread_txt" />
-        <item itemvalue="Python.sunlight_administration_single_thread" />
-        <item itemvalue="Python.data_storage" />
-        <item itemvalue="Python.people_court_async" />
-        <item itemvalue="Python.tieba_login_req" />
+        <item itemvalue="Python.verification_code (1)" />
+        <item itemvalue="Python.verification_code" />
+        <item itemvalue="Python.baidu_recognition" />
+        <item itemvalue="Python.distributed_client" />
+        <item itemvalue="Python.distributed_server" />
       </list>
     </recent_temporary>
   </component>
@@ -299,22 +331,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.13754046" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" weight="0.45676997" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32913387" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.07986871" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.23194748" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.16958424" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20801815" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985755" visible="true" weight="0.13539445" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.5014245" side_tool="true" visible="true" weight="0.13539445" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -337,50 +368,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://G:/视频代码/week9/day3/SZday06/Vweb/3.alibaba.py" />
-    <entry file="file://$PROJECT_DIR$/bat_spider/alibaba_job_spider.py" />
-    <entry file="file://G:/视频代码/week9/day3/SZday06/Vweb/3.alibaba.py" />
-    <entry file="file://$PROJECT_DIR$/script_home_spider/script_index_req.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bat_spider/seliumn_csdn_login.py" />
-    <entry file="file://$PROJECT_DIR$/tieba_spider/tieba_index_req.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tieba_spider/tieba_index_req.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="36" column="75" selection-start-line="36" selection-start-column="75" selection-end-line="36" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tieba_spider/tieba_index_req.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="34" column="66" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tieba_spider/tieba_index_req.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/视频代码/week9/day3/SZday5/code/tieba/2.tiebalogin.py" />
-    <entry file="file://F:/python/Lib/site-packages/selenium/webdriver/remote/webelement.py" />
-    <entry file="file://$USER_HOME$/Documents/WXWork/1688850527377832/Cache/File/2019-10/download_video.py" />
-    <entry file="file://G:/视频代码/week9/day3/SZday06/Vweb/3.alibaba.py" />
-    <entry file="file://$PROJECT_DIR$/bat_spider/deacribe.txt" />
     <entry file="file://F:/python/Lib/site-packages/bs4/__init__.py" />
     <entry file="file://G:/Python/Lib/site-packages/bs4/element.py" />
     <entry file="file://G:/Python/Lib/site-packages/selenium/webdriver/chrome/options.py" />
@@ -472,14 +459,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/database_operate.py" />
-    <entry file="file://$PROJECT_DIR$/utils/database_link_database_pool.py" />
-    <entry file="file://$PROJECT_DIR$/utils/connect_mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="55" column="40" lean-forward="true" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/python/Lib/site-packages/sqlalchemy/sql/schema.py" />
     <entry file="file://$PROJECT_DIR$/sunlight_administration_site/config.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -504,19 +483,115 @@
     </entry>
     <entry file="file://F:/python/Lib/threading.py" />
     <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1104749448/builtins.py" />
-    <entry file="file://$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_sql.py">
+    <entry file="file://$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_txt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="17" selection-end-column="27" />
+        <state relative-caret-position="824">
+          <caret line="130" column="18" selection-start-line="130" selection-start-column="18" selection-end-line="130" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_txt.py">
+    <entry file="file://$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_sql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+        <state relative-caret-position="482">
+          <caret line="93" column="46" selection-start-line="93" selection-start-column="37" selection-end-line="93" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/python/Lib/multiprocessing/managers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8702">
+          <caret line="471" column="64" selection-start-line="471" selection-start-column="64" selection-end-line="471" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/some_demos/distributed_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/some_demos/distributed_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/python/Lib/site-packages/aip/ocr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="98" column="32" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/some_demos/baidu_recognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/connect_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="55" column="40" lean-forward="true" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/database_link_database_pool.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://F:/python/Lib/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1160" column="14" selection-start-line="1160" selection-start-column="8" selection-end-line="1160" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1104749448/PIL/_imaging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/python/Lib/site-packages/PIL/ImageFont.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="108" column="33" selection-start-line="108" selection-start-column="33" selection-end-line="108" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/python/Lib/site-packages/PIL/ImageDraw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1015">
+          <caret line="273" column="41" selection-start-line="273" selection-start-column="36" selection-end-line="273" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/code.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/WIautk">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://F:/python/Lib/site-packages/PIL/ImageFilter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="240" column="18" selection-start-line="240" selection-start-column="6" selection-end-line="240" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/verification_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="75" column="41" lean-forward="true" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
           <folding>
-            <element signature="e#425#437#0" expanded="true" />
+            <element signature="e#369#378#0" expanded="true" />
           </folding>
         </state>
       </provider>
