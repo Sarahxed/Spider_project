@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="07ff4305-9567-4ba9-bb8b-a3a09cf8e83c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/some_demos/baidu_recognition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moki_site_spider/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moki_site_spider/moki_site_code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Spider_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Spider_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/some_demos/distributed_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/some_demos/distributed_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/some_demos/distributed_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/some_demos/distributed_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_txt.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_txt.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,34 +53,6 @@
     <SUITE FILE_PATH="coverage/Spider_project$data_storage.coverage" NAME="data_storage Coverage Results" MODIFIED="1575018262144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sunlight_administration_site" />
     <SUITE FILE_PATH="coverage/Spider_project$sunlight_administration_single_multithread_txt.coverage" NAME="sunlight_administration_single_multithread_txt Coverage Results" MODIFIED="1575366125684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sunlight_administration_site" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Spider_project" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="verification_code.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/utils/verification_code.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="75" column="41" lean-forward="true" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
-              <folding>
-                <element signature="e#369#378#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageFilter.py" pinned="false" current-in-tab="false">
-        <entry file="file://F:/python/Lib/site-packages/PIL/ImageFilter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="240" column="18" selection-start-line="240" selection-start-column="6" selection-end-line="240" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -72,110 +60,29 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>python零基础闯关游戏分享！如何在游戏</find>
-      <find>用numpy怎么把</find>
-      <find>贴子</find>
-      <find>贴子：</find>
-      <find>card_menNum</find>
-      <find>next</find>
-      <find>buffering</find>
-      <find>text</find>
-      <find>draw_line</find>
-      <find>filter</find>
-      <find>getsize</find>
-      <find>BLUR</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/bat_spider/bs4_operate.py" />
-        <option value="$PROJECT_DIR$/bat_spider/stockstar_spider.py" />
-        <option value="$PROJECT_DIR$/some_demos/request_auth.py" />
-        <option value="$PROJECT_DIR$/bat_spider/alibaba_job_spider.py" />
-        <option value="$PROJECT_DIR$/bat_spider/seliumn_csdn_login.py" />
-        <option value="$PROJECT_DIR$/bat_spider/stockstar_spider_sql.py" />
-        <option value="$PROJECT_DIR$/tieba_spider/tieba_index_req.py" />
-        <option value="$PROJECT_DIR$/tieba_spider/tieba_login_req.py" />
-        <option value="$PROJECT_DIR$/some_demos/coroutine_process_thread.py" />
-        <option value="$PROJECT_DIR$/some_demos/json_and_request_auth.py" />
-        <option value="$PROJECT_DIR$/some_demos/pyquery_code.py" />
-        <option value="$PROJECT_DIR$/some_demos/identify_code.py" />
-        <option value="$PROJECT_DIR$/utils/connect_mysql.py" />
-        <option value="$PROJECT_DIR$/script_home_spider/script_index_req.py" />
-        <option value="$PROJECT_DIR$/sh_higher_people_court_spider/people_court_async.py" />
-        <option value="$PROJECT_DIR$/spider.gitignore" />
-        <option value="$PROJECT_DIR$/utils/database_link)database_pool.py" />
-        <option value="$PROJECT_DIR$/utils/database_operate.py" />
-        <option value="$PROJECT_DIR$/utils/database_link_database_pool.py" />
-        <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/sunlight_administration_site/data_storage.py" />
-        <option value="$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_thread.py" />
-        <option value="$PROJECT_DIR$/sunlight_administration_site/config.py" />
-        <option value="$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_sql.py" />
-        <option value="$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_txt.py" />
-        <option value="$PROJECT_DIR$/some_demos/distributed_server.py" />
-        <option value="F:/python/Lib/multiprocessing/managers.py" />
-        <option value="$PROJECT_DIR$/some_demos/distributed_client.py" />
-        <option value="$PROJECT_DIR$/some_demos/baidu_recognition.py" />
-        <option value="$PROJECT_DIR$/some_demos/verification_code.py" />
-        <option value="$PROJECT_DIR$/utils/verification_code.py" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Spider_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spider_project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spider_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spider_project" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1h5FT7NHJfJ9wiwCiBy4sh4z7yF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/moki_site_spider" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="options.lastSelected" value="configurable.group.appearance" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -183,19 +90,7 @@
       <recent name="G:\Spider_project\sunlight_administration_site" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.verification_code (1)">
+  <component name="RunManager" selected="Python.moki_site_code">
     <configuration name="baidu_recognition" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Spider_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,8 +109,11 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="distributed_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Spider_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -223,18 +121,21 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/some_demos" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chrome_headless_baidu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/some_demos/distributed_client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chrome_headless_baidu/demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="distributed_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="moki_site_code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Spider_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -242,16 +143,19 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/some_demos" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moki_site_spider" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/some_demos/distributed_server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/moki_site_spider/moki_site_code.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="verification_code (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Spider_project" />
@@ -271,6 +175,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="verification_code" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Spider_project" />
@@ -290,21 +197,24 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.distributed_server" />
-      <item itemvalue="Python.distributed_client" />
       <item itemvalue="Python.baidu_recognition" />
       <item itemvalue="Python.verification_code" />
       <item itemvalue="Python.verification_code (1)" />
+      <item itemvalue="Python.demo" />
+      <item itemvalue="Python.moki_site_code" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.moki_site_code" />
+        <item itemvalue="Python.demo" />
         <item itemvalue="Python.verification_code (1)" />
         <item itemvalue="Python.verification_code" />
         <item itemvalue="Python.baidu_recognition" />
-        <item itemvalue="Python.distributed_client" />
-        <item itemvalue="Python.distributed_server" />
       </list>
     </recent_temporary>
   </component>
@@ -318,6 +228,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571633093764</updated>
+      <workItem from="1599293052246" duration="12452000" />
+      <workItem from="1599316384616" duration="50000" />
     </task>
     <servers />
   </component>
@@ -330,271 +242,49 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.13754046" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" weight="0.45676997" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32913387" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.23194748" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.16958424" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985755" visible="true" weight="0.13539445" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.5014245" side_tool="true" visible="true" weight="0.13539445" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="5" />
-    </breakpoint-manager>
+  <component name="WindowStateProjectService">
+    <state x="677" y="171" key="FileChooserDialogImpl" timestamp="1599316426989">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="677" y="171" key="FileChooserDialogImpl/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1599316426989" />
+    <state width="1493" height="46" key="GridCell.Tab.0.bottom" timestamp="1599314353099">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="46" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1599314353099" />
+    <state width="1493" height="46" key="GridCell.Tab.0.center" timestamp="1599314353099">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="46" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1599314353099" />
+    <state width="1493" height="46" key="GridCell.Tab.0.left" timestamp="1599314353098">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="46" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1599314353098" />
+    <state width="1493" height="46" key="GridCell.Tab.0.right" timestamp="1599314353099">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="46" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1599314353099" />
+    <state x="270" y="123" key="SettingsEditor" timestamp="1599314507103">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="270" y="123" key="SettingsEditor/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1599314507103" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://F:/python/Lib/site-packages/bs4/__init__.py" />
-    <entry file="file://G:/Python/Lib/site-packages/bs4/element.py" />
-    <entry file="file://G:/Python/Lib/site-packages/selenium/webdriver/chrome/options.py" />
-    <entry file="file://G:/Python/Lib/subprocess.py" />
-    <entry file="file://$PROJECT_DIR$/some_demos/last.txt" />
-    <entry file="file://$PROJECT_DIR$/some_demos/two.txt" />
-    <entry file="file://$PROJECT_DIR$/some_demos/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://F:/python/Lib/site-packages/pyquery/pyquery.py" />
-    <entry file="file://F:/python/Lib/site-packages/requests/__init__.py" />
-    <entry file="file://F:/python/Lib/site-packages/gevent/__init__.py" />
-    <entry file="file://F:/python/Lib/site-packages/gevent/greenlet.py" />
-    <entry file="file://$PROJECT_DIR$/bat_spider/alibaba_job_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bat_spider/seliumn_csdn_login.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tieba_spider/tieba_login_req.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tieba_spider/tieba_index_req.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1786">
-          <caret line="94" column="26" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/some_demos/pyquery_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/some_demos/json_and_request_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/some_demos/identify_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/python/Lib/site-packages/selenium/webdriver/phantomjs/webdriver.py" />
-    <entry file="file://F:/python/Lib/site-packages/selenium/webdriver/chrome/webdriver.py" />
-    <entry file="file://$PROJECT_DIR$/sh_higher_people_court_spider/ghostdriver.log" />
-    <entry file="file://$PROJECT_DIR$/spider.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/some_demos/coroutine_process_thread.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/python/Lib/re.py" />
-    <entry file="file://$PROJECT_DIR$/bat_spider/stockstar_spider_sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="42" column="22" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sh_higher_people_court_spider/people_court_async.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-870">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/database_operate.py" />
-    <entry file="file://F:/python/Lib/site-packages/sqlalchemy/sql/schema.py" />
-    <entry file="file://$PROJECT_DIR$/sunlight_administration_site/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script_home_spider/script_index_req.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sunlight_administration_site/data_storage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
-          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/python/Lib/threading.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1104749448/builtins.py" />
-    <entry file="file://$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_txt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="824">
-          <caret line="130" column="18" selection-start-line="130" selection-start-column="18" selection-end-line="130" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="93" column="46" selection-start-line="93" selection-start-column="37" selection-end-line="93" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/python/Lib/multiprocessing/managers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8702">
-          <caret line="471" column="64" selection-start-line="471" selection-start-column="64" selection-end-line="471" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/some_demos/distributed_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/some_demos/distributed_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/python/Lib/site-packages/aip/ocr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="98" column="32" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/some_demos/baidu_recognition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/connect_mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="55" column="40" lean-forward="true" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/database_link_database_pool.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://F:/python/Lib/site-packages/PIL/Image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1160" column="14" selection-start-line="1160" selection-start-column="8" selection-end-line="1160" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1104749448/PIL/_imaging.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/python/Lib/site-packages/PIL/ImageFont.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1995">
-          <caret line="108" column="33" selection-start-line="108" selection-start-column="33" selection-end-line="108" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/python/Lib/site-packages/PIL/ImageDraw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1015">
-          <caret line="273" column="41" selection-start-line="273" selection-start-column="36" selection-end-line="273" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/code.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/WIautk">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://F:/python/Lib/site-packages/PIL/ImageFilter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="240" column="18" selection-start-line="240" selection-start-column="6" selection-end-line="240" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/verification_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="75" column="41" lean-forward="true" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
-          <folding>
-            <element signature="e#369#378#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Spider_project$moki_site_code.coverage" NAME="moki_site_code Coverage Results" MODIFIED="1599315954538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moki_site_spider" />
+    <SUITE FILE_PATH="coverage/Spider_project$demo.coverage" NAME="demo Coverage Results" MODIFIED="1599293804479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chrome_headless_baidu" />
   </component>
 </project>
