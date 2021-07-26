@@ -1,8 +1,8 @@
 # Name:  data_storage
 # Purpose: 
 # 
-# @Author: v_mzhulliu
-# Copyright: (c) Tencent 2019
+# @Author: Sarah
+# Copyright:
 # Licence:
 #
 # Created: 2019/11/28

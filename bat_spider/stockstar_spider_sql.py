@@ -5,8 +5,8 @@
 # Name:  stockstar_spider_sql
 # Purpose: 
 # 
-# @Author: v_mzhulliu
-# Copyright: (c) Tencent 2019
+# @Author: Sarah
+# Copyright:
 # Licence:
 #
 # Created: 2019/11/4
@@ -43,7 +43,6 @@ def to_configure_mysql():
     mydb = MysqlHelper(config)
 
     # 打印数据库版本
-    print(mydb.get_version())
     table_name = 'equity_funds_table'
     attrdict = {
         'fund_code': 'varchar(30)',
@@ -131,4 +130,5 @@ def parse_info(data):
             print("异常")
 
 
-mydb_obj, table_name = to_configure_mysql()
+if __name__ == '__main__':
+    mydb_obj, table_name = to_configure_mysql()

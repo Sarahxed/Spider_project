@@ -5,7 +5,7 @@
 # Name:  verification_code
 # Purpose: 
 # 
-# @Author: v_mzhulliu
+# @Author: pymysql
 # Copyright: (c) Tencent 2019
 # Licence:
 #

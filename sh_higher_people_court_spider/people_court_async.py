@@ -73,7 +73,3 @@ def start_coroutine(url, savefile):
     print('TIME: ', end - start)
 
 
-if __name__ == '__main__':
-    req_url = "http://www.hshfy.sh.cn/shfy/gweb2017/ktgg_search.jsp"
-    save_file = r"G:\v_mzhulliu\测试\上海高级任命法院.txt"
-    start_coroutine(req_url, save_file)

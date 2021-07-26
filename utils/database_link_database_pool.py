@@ -5,8 +5,8 @@
 # Name:  database_link)database_pool
 # Purpose: 
 # 
-# @Author: v_mzhulliu
-# Copyright: (c) Tencent 2019
+# @Author: Sarah
+# Copyright:
 # Licence:
 #
 # Created: 2019/11/27

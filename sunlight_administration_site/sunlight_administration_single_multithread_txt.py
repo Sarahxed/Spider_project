@@ -5,8 +5,8 @@
 # Name:  sunlight_administration_single_multithread_txt
 # Purpose: 
 # 
-# @Author: v_mzhulliu
-# Copyright: (c) Tencent 2019
+# @Author: Sarah
+# Copyright:
 # Licence:
 #
 # Created: 2019/12/2

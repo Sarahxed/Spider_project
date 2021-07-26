@@ -5,8 +5,8 @@
 # Name:  seliumn_csdn_login
 # Purpose: 
 # 
-# @Author: v_mzhulliu
-# Copyright: (c) Tencent 2019
+# @Author: Sarah
+# Copyright:
 # Licence:
 #
 # Created: 2019/10/30

@@ -20,11 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07ff4305-9567-4ba9-bb8b-a3a09cf8e83c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/moki_site_spider/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moki_site_spider/moki_site_code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Spider_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Spider_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bat_spider/alibaba_job_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/bat_spider/alibaba_job_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bat_spider/seliumn_csdn_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/bat_spider/seliumn_csdn_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bat_spider/stockstar_spider_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/bat_spider/stockstar_spider_sql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script_home_spider/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script_home_spider/script_index_req.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sh_higher_people_court_spider/people_court_async.py" beforeDir="false" afterPath="$PROJECT_DIR$/sh_higher_people_court_spider/people_court_async.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/some_demos/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/some_demos/baidu_recognition.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/some_demos/coroutine_process_thread.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/some_demos/distributed_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/some_demos/distributed_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/some_demos/identify_code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/some_demos/json_and_request_auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/some_demos/pyquery_code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunlight_administration_site/data_storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunlight_administration_site/data_storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_sql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_txt.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunlight_administration_site/sunlight_administration_single_multithread_txt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tieba_spider/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tieba_spider/tieba_index_req.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tieba_spider/tieba_login_req.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/database_link_database_pool.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/database_link_database_pool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/verification_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/verification_code.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +86,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/moki_site_spider" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -218,6 +237,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -230,6 +250,7 @@
       <updated>1571633093764</updated>
       <workItem from="1599293052246" duration="12452000" />
       <workItem from="1599316384616" duration="50000" />
+      <workItem from="1627285588479" duration="400000" />
     </task>
     <servers />
   </component>
@@ -243,7 +264,7 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -284,7 +305,7 @@
     <state x="270" y="123" key="SettingsEditor/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1599314507103" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Spider_project$moki_site_code.coverage" NAME="moki_site_code Coverage Results" MODIFIED="1599315954538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moki_site_spider" />
     <SUITE FILE_PATH="coverage/Spider_project$demo.coverage" NAME="demo Coverage Results" MODIFIED="1599293804479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chrome_headless_baidu" />
+    <SUITE FILE_PATH="coverage/Spider_project$moki_site_code.coverage" NAME="moki_site_code Coverage Results" MODIFIED="1599315954538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moki_site_spider" />
   </component>
 </project>
